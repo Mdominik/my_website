@@ -1,26 +1,55 @@
-#video_tile a, #experience_tile a, #skills_tile a, #education_tile a {
-  color: #FFFFFF;
+$white: #FFFFFF;
+$header_color: #0074D9;
+
+%tile {
+  color: $white;
   text-decoration: none;
 }
 
-#education_tile a:hover {
+#education_tile {
+  a {
+    @extend %tile;
+  }
+}
+
+#education_tile a:hover{
   color: #DDDDDD;
+}
+
+#skills_tile {
+  a {
+    @extend %tile;
+  }
 }
 
 #skills_tile a:hover {
   color: #DDDDDD;
+
+}
+
+#experience_tile {
+  a {
+    @extend %tile;
+  }
 }
 
 #experience_tile a:hover {
   color: #DDDDDD;
 }
 
+
+#video_tile {
+  a {
+    @extend %tile;
+  }
+}
+
 #video_tile a:hover {
   color: #DDDDDD;
 }
 
-#header {
-  color: #0074D9;
+#header{
+  color: $header_color;
   text-decoration: none;
   text-align: left;
 }
@@ -47,6 +76,5 @@ footer {
   text-align: center;
   padding: 1em;
   background: #2E85FF;
-}
 
-/*# sourceMappingURL=index.css.map */
+}

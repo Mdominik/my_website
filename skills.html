@@ -1,9 +1,119 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>Dominik Mazniak Resume</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="flags.min.css">
+        <link rel="stylesheet" href="flags.css">
     </head>
     <body>
-        Hello, world!
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-6 col-sm-6 col-6 pb-2 mt-4 mb-2 border-bottom">
+              <img src="image1.jpg" class="img-fluid" id="portret" alt="Responsive image">
+          </div>
+
+          <div class="col-lg-5 col-md-6 col-sm-6 col-12 pb-2 mt-4 mb-2 border-bottom">
+            <h1 id="header">Dominik Mazniak</h1>
+            <p id="description">7th semester mechatronics student looking for a traineeship.
+              <br/>Member of the winning team of the biggest Mars rovers competition in the world - URC 2018.<br/>
+              Interested in automation as well as web development.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-2 mt-4 mb-2 border-bottom">
+            <p id="infos">+48 534 136 797 <br/> mazniakd@gmail.com <br/> 88250 Weingarten, Germany <br/>
+            Linkedin <br/> CV</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6 col-12 pb-2 mt-4 mb-2 border-bottom">
+            <p id="languages">
+              <a href="index.html"><img src="blank.gif" class="flag flag-us" alt="United States" /> English B2</a><br/>
+              <a href="index_german.html"><img src="blank.gif" class="flag flag-de" alt="Germany" /> German B1</a><br/>
+              <a href="index_polish.html"><img src="blank.gif" class="flag flag-pl" alt="Poland" /> Polish C2 (native)</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row" id="tiles_id">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12 tile">
+            <h3 id="education_tile"><a href="education.html">education</a></h3>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12 tile">
+            <h3 id="experience_tile"><a href="exp_proj.html">experience</a></h3>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12 tile">
+            <h3 id="skills_tile"><a href="skills.html">skills</a></h3>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12 tile">
+            <h3 id="video_tile"><a href="video_presentation.html">video</a></h3>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2 pb-2 mt-4 mb-2 border-bottom">
+            <h5>C/C++</h5>
+          </div>
+          <div class="col-lg-10 col-md-10 col-sm-10 col-10 pb-2 mt-4 mb-2 border-bottom">
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2 pb-2 mt-4 mb-2 border-bottom">
+            <h5>Python 3.5</h5>
+          </div>
+          <div class="col-lg-10 col-md-10 col-sm-10 col-10 pb-2 mt-4 mb-2 border-bottom">
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2 pb-2 mt-4 mb-2 border-bottom">
+            <h5>ROS</h5>
+          </div>
+          <div class="col-lg-10 col-md-10 col-sm-10 col-10 pb-2 mt-4 mb-2 border-bottom">
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2 pb-2 mt-4 mb-2 border-bottom">
+            <h5>HTML5 & CSS3</h5>
+          </div>
+          <div class="col-lg-10 col-md-10 col-sm-10 col-10 pb-2 mt-4 mb-2 border-bottom">
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2 pb-2 mt-4 mb-2 border-bottom">
+            <h5>Hardware</h5>
+          </div>
+          <div class="col-lg-10 col-md-10 col-sm-10 col-10 pb-2 mt-4 mb-2 border-bottom">
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2 pb-2 mt-4 mb-2 border-bottom">
+            <h5>Java for Android</h5>
+          </div>
+          <div class="col-lg-10 col-md-10 col-sm-10 col-10 pb-2 mt-4 mb-2 border-bottom">
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">The website is operating on Raspberry Pi 3 server</footer>
+      </div>
+
     </body>
 </html>

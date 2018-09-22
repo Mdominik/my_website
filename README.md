@@ -13,4 +13,8 @@
 ## Design:
     ⋅⋅⋅ Portfolio - website. It should contain some data about yourself, to show it to potential employers
     ⋅⋅⋅ square divided into 4 parts in the middle. Each one redirects to a different .html file (Education, Skills, Experience/Projects, Video presentation)
-    
+
+# Structure:
+    1) 4 html pages - education, experience, skills, video
+    2) Bootstrap 4 used
+    3) Todo - 3 different languages
